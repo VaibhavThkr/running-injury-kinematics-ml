@@ -1,0 +1,113 @@
+{
+ "run_trials_per_participant": {
+  "1": 329,
+  "2": 18,
+  "3": 9,
+  "4": 8,
+  "5": 2
+ },
+ "run_participants_with_repeats": 37,
+ "run_trials_from_participants_with_repeats": 105,
+ "run_PFPS_trials_participants": [
+  131,
+  126
+ ],
+ "run_ITBS_trials_participants": [
+  126,
+  99
+ ],
+ "run_Plantar_trials_participants": [
+  49,
+  44
+ ],
+ "run_Achilles_trials_participants": [
+  62,
+  48
+ ],
+ "run_MTSS_trials_participants": [
+  66,
+  49
+ ],
+ "walk_trials_per_participant": {
+  "1": 323,
+  "2": 17,
+  "3": 7,
+  "4": 2,
+  "5": 1
+ },
+ "walk_participants_with_repeats": 27,
+ "walk_trials_from_participants_with_repeats": 68,
+ "walk_PFPS_trials_participants": [
+  128,
+  125
+ ],
+ "walk_ITBS_trials_participants": [
+  100,
+  87
+ ],
+ "walk_Plantar_trials_participants": [
+  51,
+  50
+ ],
+ "walk_Achilles_trials_participants": [
+  56,
+  46
+ ],
+ "walk_MTSS_trials_participants": [
+  56,
+  42
+ ],
+ "participants_both_run_only_walk_only": [
+  323,
+  43,
+  27
+ ],
+ "spearman_inflation_vs_repeat_share": {
+  "rho": 0.709090909090909,
+  "p": 0.02166592336753244
+ },
+ "run_speed_p5_p95": [
+  2.021272075,
+  3.5152863440999993
+ ],
+ "walk_speed_p5_p95": [
+  1.1132096425,
+  1.5884783855000002
+ ],
+ "walking_trials_over_2ms": [
+  [
+   101049,
+   "ITBS",
+   2.73,
+   0.31
+  ],
+  [
+   101056,
+   "MTSS",
+   2.717,
+   0.322
+  ]
+ ],
+ "walk_auc_without_them_same_folds": {
+  "ITBS": [
+   0.5445141065830721,
+   -0.005176615066412427
+  ],
+  "PFPS": [
+   0.6146731321839082,
+   -0.005069025610768607
+  ],
+  "Plantar": [
+   0.582666202575705,
+   -0.008106577124410319
+  ],
+  "Achilles": [
+   0.5126555126555127,
+   0.010629926301568227
+  ],
+  "MTSS": [
+   0.6132280892759935,
+   0.04009376091778449
+  ]
+ }
+}

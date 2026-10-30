@@ -1,0 +1,77 @@
+Variable,Region,Plane,Type,Description,Unit,Running,Walking,Constant
+STEP_WIDTH,Spatiotemporal,—,Spatiotemporal,Step width (mediolateral distance between the feet),m,0.06 ± 0.03,0.11 ± 0.03,False
+STRIDE_RATE,Spatiotemporal,—,Spatiotemporal,Stride rate,strides/min,82.71 ± 5.05,55.69 ± 4.43,False
+STRIDE_LENGTH,Spatiotemporal,—,Spatiotemporal,Stride length,m,1.96 ± 0.28,1.34 ± 0.14,False
+STANCE_TIME,Spatiotemporal,—,Spatiotemporal,Stance time,s,0.30 ± 0.03,0.69 ± 0.06,False
+SWING_TIME,Spatiotemporal,—,Spatiotemporal,Swing time,s,0.43 ± 0.04,0.39 ± 0.03,False
+VERTICAL_OSCILLATION,Spatiotemporal,—,Spatiotemporal,Vertical oscillation,mm,87.56 ± 15.44,35.71 ± 9.30,False
+PELVIS_PEAK_DROP_ANGLE,Pelvis,Frontal,Peak angle,Peak pelvic drop,deg,0.58 ± 3.92,0.44 ± 3.16,False
+PELVIS_DROP_EXCURSION,Pelvis,Frontal,Excursion,Pelvic drop excursion during stance,deg,0.14 ± 4.59,0.18 ± 4.38,False
+PELVIS_DROP_at_HS,Pelvis,Frontal,Angle at initial contact,Pelvic drop at initial contact,deg,0 in every trial,0 in every trial,True
+PELVIS_DROP_percent_STANCE,Pelvis,Frontal,Timing of peak angle,Timing of peak pelvic drop,% stance,0 in every trial,0 in every trial,True
+PEAK_PELVIC_DROP_VELOCITY,Pelvis,Frontal,Peak angular velocity,Peak pelvic drop velocity,deg/s,-86.46 ± 37.03,-41.36 ± 18.66,False
+HIP_EXT_PEAK_ANGLE,Hip,Sagittal,Peak angle,Peak hip extension,deg,-12.39 ± 8.02,-16.31 ± 6.10,False
+HIP_EXT_EXCURSION,Hip,Sagittal,Excursion,Hip extension excursion during stance,deg,0 in every trial,0 in every trial,True
+HIP_EXT_at_HS,Hip,Sagittal,Angle at initial contact,Hip flexion/extension angle at initial contact,deg,0 in every trial,0 in every trial,True
+HIP_EXT_percent_STANCE,Hip,Sagittal,Timing of peak angle,Timing of peak hip extension,% stance,0 in every trial,0 in every trial,True
+HIP_ADD_PEAK_ANGLE,Hip,Frontal,Peak angle,Peak hip adduction,deg,9.17 ± 4.57,7.14 ± 3.15,False
+HIP_ADD_EXCURSION,Hip,Frontal,Excursion,Hip adduction excursion during stance,deg,9.34 ± 3.49,8.95 ± 3.44,False
+HIP_ADD_at_HS,Hip,Frontal,Angle at initial contact,Hip adduction angle at initial contact,deg,0 in every trial,0 in every trial,True
+HIP_ADD_percent_STANCE,Hip,Frontal,Timing of peak angle,Timing of peak hip adduction,% stance,0 in every trial,0 in every trial,True
+PEAK_HIP_ADD_VELOCITY,Hip,Frontal,Peak angular velocity,Peak hip adduction velocity,deg/s,144.57 ± 51.23,78.70 ± 27.14,False
+HIP_ABD_PEAK_VEL,Hip,Frontal,Peak angular velocity,Peak hip abduction velocity,deg/s,-65.65 ± 36.53,-86.36 ± 30.34,False
+HIP_ABD_VEL_percent_STANCE,Hip,Frontal,Timing of peak angular velocity,Timing of peak hip abduction velocity,% stance,0 in every trial,0 in every trial,True
+HIP_ROT_PEAK_ANGLE,Hip,Transverse,Peak angle,Peak hip rotation,deg,15.10 ± 6.66,10.77 ± 6.24,False
+HIP_ROT_EXCURSION,Hip,Transverse,Excursion,Hip rotation excursion during stance,deg,1.40 ± 1.95,4.57 ± 3.41,False
+HIP_ROT_at_HS,Hip,Transverse,Angle at initial contact,Hip rotation angle at initial contact,deg,0 in every trial,0 in every trial,True
+HIP_ROT_percent_STANCE,Hip,Transverse,Timing of peak angle,Timing of peak hip rotation,% stance,0 in every trial,0 in every trial,True
+HIP_ROT_PEAK_VEL,Hip,Transverse,Peak angular velocity,Peak hip rotation velocity,deg/s,70.08 ± 43.49,86.74 ± 33.83,False
+KNEE_FLEX_PEAK_ANGLE,Knee,Sagittal,Peak angle,Peak knee flexion,deg,-42.50 ± 5.85,-19.40 ± 5.90,False
+KNEE_FLEX_EXCURSION,Knee,Sagittal,Excursion,Knee flexion excursion during stance,deg,0 in every trial,0 in every trial,True
+KNEE_FLEX_at_HS,Knee,Sagittal,Angle at initial contact,Knee flexion angle at initial contact,deg,0 in every trial,0 in every trial,True
+KNEE_FLEX_percent_STANCE,Knee,Sagittal,Timing of peak angle,Timing of peak knee flexion,% stance,0 in every trial,0 in every trial,True
+KNEE_FLEX_PEAK_VEL,Knee,Sagittal,Peak angular velocity,Peak knee flexion velocity,deg/s,0 in every trial,0 in every trial,True
+KNEE_FLEX_VEL_percent_STANCE,Knee,Sagittal,Timing of peak angular velocity,Timing of peak knee flexion velocity,% stance,0 in every trial,0 in every trial,True
+KNEE_ADD_PEAK_ANGLE,Knee,Frontal,Peak angle,Peak knee adduction,deg,-4.46 ± 3.93,-0.88 ± 3.23,False
+KNEE_ADD_EXCURSION,Knee,Frontal,Excursion,Knee adduction excursion during stance,deg,1.93 ± 2.05,2.98 ± 1.74,False
+KNEE_ADD_at_HS,Knee,Frontal,Angle at initial contact,Knee adduction angle at initial contact,deg,0 in every trial,0 in every trial,True
+KNEE_ADD_percent_STANCE,Knee,Frontal,Timing of peak angle,Timing of peak knee adduction,% stance,0 in every trial,0 in every trial,True
+KNEE_ADD_PEAK_VEL,Knee,Frontal,Peak angular velocity,Peak knee adduction velocity,deg/s,65.28 ± 25.37,42.41 ± 15.18,False
+KNEE_ADD_VEL_percent_STANCE,Knee,Frontal,Timing of peak angular velocity,Timing of peak knee adduction velocity,% stance,0 in every trial,0 in every trial,True
+KNEE_ABD_PEAK_ANGLE,Knee,Frontal,Peak angle,Peak knee abduction,deg,-10.44 ± 4.34,-15.21 ± 4.99,False
+KNEE_ABD_EXCURSION,Knee,Frontal,Excursion,Knee abduction excursion during stance,deg,-4.02 ± 2.77,-11.33 ± 4.73,False
+KNEE_ABD_at_HS,Knee,Frontal,Angle at initial contact,Knee abduction angle at initial contact,deg,0 in every trial,0 in every trial,True
+KNEE_ABD_percent_STANCE,Knee,Frontal,Timing of peak angle,Timing of peak knee abduction,% stance,0 in every trial,0 in every trial,True
+KNEE_ABD_PEAK_VEL,Knee,Frontal,Peak angular velocity,Peak knee abduction velocity,deg/s,-99.87 ± 41.84,-119.69 ± 38.60,False
+KNEE_ABD_VEL_percent_STANCE,Knee,Frontal,Timing of peak angular velocity,Timing of peak knee abduction velocity,% stance,0 in every trial,0 in every trial,True
+KNEE_ROT_PEAK_ANGLE,Knee,Transverse,Peak angle,Peak knee rotation,deg,-10.57 ± 8.06,-7.15 ± 7.27,False
+KNEE_ROT_EXCURSION,Knee,Transverse,Excursion,Knee rotation excursion during stance,deg,14.89 ± 4.53,18.01 ± 4.84,False
+KNEE_ROT_at_HS,Knee,Transverse,Angle at initial contact,Knee rotation angle at initial contact,deg,0 in every trial,0 in every trial,True
+KNEE_ROT_percent_STANCE,Knee,Transverse,Timing of peak angle,Timing of peak knee rotation,% stance,0 in every trial,0 in every trial,True
+KNEE_ROT_PEAK_VEL,Knee,Transverse,Peak angular velocity,Peak knee rotation velocity,deg/s,214.40 ± 71.98,144.52 ± 42.24,False
+ANKLE_DF_PEAK_ANGLE,Ankle,Sagittal,Peak angle,Peak ankle dorsiflexion,deg,20.68 ± 3.89,11.48 ± 3.71,False
+ANKLE_DF_EXCURSION,Ankle,Sagittal,Excursion,Ankle dorsiflexion excursion during stance,deg,0 in every trial,0 in every trial,True
+ANKLE_DF_at_HS,Ankle,Sagittal,Angle at initial contact,Ankle dorsiflexion angle at initial contact,deg,0 in every trial,0 in every trial,True
+ANKLE_DF_percent_STANCE,Ankle,Sagittal,Timing of peak angle,Timing of peak ankle dorsiflexion,% stance,0 in every trial,0 in every trial,True
+ANKLE_DF_PEAK_VEL,Ankle,Sagittal,Peak angular velocity,Peak ankle dorsiflexion velocity,deg/s,0 in every trial,0 in every trial,True
+ANKLE_DF_VEL_percent_STANCE,Ankle,Sagittal,Timing of peak angular velocity,Timing of peak ankle dorsiflexion velocity,% stance,0 in every trial,0 in every trial,True
+ANKLE_EVE_PEAK_ANGLE,Ankle,Frontal,Peak angle,Peak ankle eversion,deg,-6.75 ± 3.21,-5.57 ± 2.73,False
+ANKLE_EVE_EXCURSION,Ankle,Frontal,Excursion,Ankle eversion excursion during stance,deg,-10.91 ± 4.27,-8.14 ± 2.48,False
+ANKLE_EVE_at_HS,Ankle,Frontal,Angle at initial contact,Ankle eversion angle at initial contact,deg,0 in every trial,0 in every trial,True
+ANKLE_EVE_percent_STANCE,Ankle,Frontal,Timing of peak angle,Timing of peak ankle eversion,fraction of stance (0–1),0.31 ± 0.08,0.50 ± 0.17,False
+ANKLE_EVE_PEAK_VEL,Ankle,Frontal,Peak angular velocity,Peak ankle eversion velocity,deg/s,-228.90 ± 86.09,-112.19 ± 46.00,False
+ANKLE_EVE_VEL_percent_STANCE,Ankle,Frontal,Timing of peak angular velocity,Timing of peak ankle eversion velocity,% stance,0 in every trial,0 in every trial,True
+ANKLE_ROT_PEAK_ANGLE,Ankle,Transverse,Peak angle,Peak ankle rotation,deg,1.43 ± 5.40,3.71 ± 5.69,False
+ANKLE_ROT_EXCURSION,Ankle,Transverse,Excursion,Ankle rotation excursion during stance,deg,-9.34 ± 3.18,-7.22 ± 2.38,False
+ANKLE_ROT_at_HS,Ankle,Transverse,Angle at initial contact,Ankle rotation angle at initial contact,deg,0 in every trial,0 in every trial,True
+ANKLE_ROT_percent_STANCE,Ankle,Transverse,Timing of peak angle,Timing of peak ankle rotation,% stance,0 in every trial,0 in every trial,True
+ANKLE_ROT_PEAK_VEL,Ankle,Transverse,Peak angular velocity,Peak ankle rotation velocity,deg/s,-158.64 ± 53.09,-112.87 ± 32.38,False
+ANKLE_ROT_VEL_percent_STANCE,Ankle,Transverse,Timing of peak angular velocity,Timing of peak ankle rotation velocity,% stance,0 in every trial,0 in every trial,True
+FOOT_PROG_ANGLE,Foot,Transverse,Foot,Foot progression angle,deg,-5.59 ± 5.04,-4.85 ± 4.68,False
+FOOT_ANG_at_HS,Foot,Sagittal,Foot,Foot angle at initial contact (foot strike angle),deg,13.96 ± 7.47,22.74 ± 4.06,False
+FOOT_ANG_at_TO,Foot,Sagittal,Foot,Foot angle at toe-off,deg,0 in every trial,0 in every trial,True
+PRONATION_ONSET,Foot,Frontal,Foot,Onset of pronation,% stance,16.46 ± 5.01,20.14 ± 11.87,False
+PRONATION_OFFSET,Foot,Frontal,Foot,End of pronation,% stance,55.63 ± 8.89,73.37 ± 7.98,False
+MED_HEEL_WHIP_PEAK,Foot,Transverse,Foot,Peak medial heel whip,deg,0 in every trial,0 in every trial,True
+MHW_percent_SWING,Foot,Transverse,Foot,Timing of peak medial heel whip,% swing,0 in every trial,0 in every trial,True
+MHW_EXC_FROM_TO,Foot,Transverse,Foot,Medial heel whip excursion from toe-off,deg,-10.72 ± 5.84,-7.55 ± 4.21,False

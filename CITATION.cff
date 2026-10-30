@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this code or the derived data, please cite the article and the source dataset."
+title: "Code and derived data for: Data-driven differential classification of running-related injuries: a comparative machine learning analysis of walking versus running kinematics"
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: Singh
+    given-names: Thakur Vaibhav
+  - family-names: Suman
+    given-names: Dabbu
+  - family-names: Srinivas
+    given-names: Medi
+  - family-names: Shravanya
+    given-names: Gundu
+  - family-names: Kumar
+    given-names: Avinash
+  - family-names: Vidyasagar
+    given-names: K. E. Ch.
+    orcid: "https://orcid.org/0000-0003-0890-0735"
+    email: vidyasagar.ou@gmail.com
+references:
+  - type: dataset
+    title: "Running Injury Clinic Kinematic Dataset"
+    doi: 10.25452/figshare.plus.24255795.v1
+    authors:
+      - family-names: Ferber
+        given-names: Reed
+      - family-names: Brett
+        given-names: Allan
+      - family-names: Fukuchi
+        given-names: Reginaldo K.
+      - family-names: Hettinga
+        given-names: Blayne
+      - family-names: Osis
+        given-names: Sean T.

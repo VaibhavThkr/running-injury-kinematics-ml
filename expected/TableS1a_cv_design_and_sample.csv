@@ -1,0 +1,18 @@
+Injury,Modality,Trial-level CV,Participant-grouped CV (primary),20 fold assignments: median [range],One session per participant,Participants with both modalities (n = 323)
+PFPS,Running,0.606,0.597,"0.584 [0.502, 0.622]",0.572,0.608
+PFPS,Walking,0.661,0.620,"0.611 [0.569, 0.633]",0.621,0.630
+ITBS,Running,0.690,0.570,"0.552 [0.521, 0.593]",0.537,0.566
+ITBS,Walking,0.601,0.550,"0.491 [0.453, 0.563]",0.498,0.541
+Plantar fasciitis,Running,0.608,0.544,"0.536 [0.482, 0.588]",0.549,0.554
+Plantar fasciitis,Walking,0.653,0.591,"0.585 [0.542, 0.637]",0.579,0.546
+Achilles tendinopathy,Running,0.670,0.489,"0.493 [0.400, 0.577]",0.513,0.491
+Achilles tendinopathy,Walking,0.649,0.502,"0.554 [0.518, 0.598]",0.509,0.495
+MTSS,Running,0.687,0.590,"0.581 [0.523, 0.632]",0.517,0.606
+MTSS,Walking,0.701,0.573,"0.584 [0.530, 0.654]",0.615,0.565
+5-way accuracy,Running,0.401,0.297,"0.318 [0.286, 0.343]",0.352 (majority 0.344),0.297
+5-way accuracy,Walking,0.404,0.315,"0.317 [0.281, 0.343]",0.346 (majority 0.357),0.315
+PFPS,Walk − run (Holm p),+0.055 (0.612),+0.023 (1.000),,,+0.022 (1.000)
+ITBS,Walk − run (Holm p),−0.089 (0.115),−0.020 (1.000),,,−0.025 (1.000)
+Plantar fasciitis,Walk − run (Holm p),+0.045 (1.000),+0.047 (1.000),,,−0.008 (1.000)
+Achilles tendinopathy,Walk − run (Holm p),−0.021 (1.000),+0.013 (1.000),,,+0.003 (1.000)
+MTSS,Walk − run (Holm p),+0.014 (1.000),−0.017 (1.000),,,−0.041 (1.000)
