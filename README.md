@@ -1,16 +1,5 @@
 # Walking versus running kinematics for classifying running-related injuries
 
-Analysis code and derived data for:
-
-> Singh TV, Suman D, Srinivas M, Shravanya G, Kumar A, Vidyasagar KECh. *Data-driven differential classification of
-> running-related injuries: A comparative machine learning analysis of walking versus running kinematics.* Array
-> (revised manuscript ARRAY-D-26-06499).
-
-The code reproduces every result, table and figure in the paper from two feature tables (one row per treadmill session),
-and checks the result against the reported values. The cohort-selection counts (Section 2.1 and Fig. 2), the secondary
-diagnoses and the sex distribution in Table 1 come from the metadata of the source dataset, which the feature tables do not
-contain (see `feature_extraction/`).
-
 ## What the analysis does
 
 * **Data:** 393 participants from the Running Injury Clinic Kinematic Dataset (Ferber et al., *Sci Data* 2024;11:1232)
